@@ -18,76 +18,8 @@
         <link rel="stylesheet" href="css/sticky-footer-navbar.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
-        
-
-
-        <!-- Add your site or application content here -->
-        
-
-  <!-- Fixed navbar -->
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html"><div class="img-logo"><img src="images/logo.png"></div></a>
-        </div>
-
-        <div class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="Username" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success"><a href="images/design-2-copy-5.png">Log in</a></button>
-          </form>
-
-        </div><!--/.navbar-collapse -->
-      </div>
-    </div>
-
-
-    <div class="container">
-      <!-- Example row of columns -->
-
-
-    <div id="map_canvas">
-hello
-    </div>
-
-      
-      </div>
-</div>
-
-    <div id="footer">
-      <div class="container">
-        <p class="text-muted">Branches: &nbsp;&nbsp;&nbsp; <a href="map.html">Brooklyn</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Canton</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Central Library</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Cherry Hill</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Clifton &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Edmondson Avenue</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Forest Park</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Govans</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Hamilton</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Hampden</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Herring Run</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Light Street</a>
-</p>
-      </div>
-    </div><!-- /container -->
-
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/vendor/bootstrap.js"></script>
-        <!-- HTML5Boilerplate JS -->
-    <script src="js/main.js"></script>
-    <script src="js/plugins.js"></script>
-    <!-- google maps API (for testing purposes only!) -->
+            <!-- google maps API (for testing purposes only!) -->
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script>
 // NOTES ::  ( center ) is a Google Maps LatLng object that tells the the API where to center the map.  ( zoom ) is a number between 0 (farthest) and 22 that sets the zoom level of the map. ( mapTypeId ) is used to specify what type of map to use. Your choices are ROADMAP, SATELLITE, HYBRID, or TERRAIN
@@ -103,10 +35,75 @@ hello
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
-</script>
 
 <!--https://www.google.com/maps/search/map+of+libraries+in+baltimore/@39.3327879,-76.6191127,12z/data=!3m1!5s0x89c80498bda3e861:0xfbe1d93ffaa74a0!4m5!2m4!3m3!1smap+of+libraries+in+baltimore!2sBaltimore,+MD!3s0x89c803aed6f483b7:0x44896a84223e758 -->
 
+
+    </head>
+    <body>
+        
+
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      
+      <div class="container">
+
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">
+            <div class="img-logo"><img src="images/logo.png"></div>
+          </a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Username" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success"><a href="login.html">Log-In</a></button>
+          </form>
+        </div><!--/.navbar-collapse -->
+
+      </div>
+    </div>
+   <!-- /Fixed navbar END  -->
+
+    
+    <!-- Example row of columns -->
+    <div id="map_canvas"> 
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d24699.605730741776!2d-76.60708950000001!3d39.30070578535079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spublic+library!5e0!3m2!1sen!2sus!4v1396458885576" width="1400" height="900" frameborder="0" style="border:0"></iframe>
+
+    </div>     
+    
+</div>
+
+
+    <div id="footer">
+
+      <div class="container">
+        <p class="text-muted">Branches: &nbsp;&nbsp;&nbsp; <a href="map.html">Brooklyn</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Canton</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Central Library</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Cherry Hill</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Clifton &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Edmondson Avenue</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Forest Park</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Govans</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Hamilton</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Hampden</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Herring Run</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="map.html">Light Street</a></p>
+      </div><!-- /container -->
+
+    </div><!-- /footer -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+        <!-- HTML5Boilerplate JS -->
+    <script src="js/main.js"></script>
+    <script src="js/plugins.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
